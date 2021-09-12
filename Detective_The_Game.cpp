@@ -258,9 +258,9 @@ int main()
 	system("cls");
 	
 	//**** REALIZA LAS 8 PREGUNTAS PARA OBTENER LA INFORMACION
-	for(int p=0; p<9; p++)
+	for(int p=0; p<8; p++)
 	{
-		cout<<"¿SOBRE QUE DESEAS SABER?"<<endl;
+		cout<<"Â¿SOBRE QUE DESEAS SABER?"<<endl;
 		cout<<"1. ARMA"<<endl;
 		cout<<"2. PERSONAJE"<<endl;
 		cout<<"3. LUGAR"<<endl;
@@ -270,7 +270,7 @@ int main()
 			{
 				case 1:		//ARMAS
 					{
-						cout<<"¿DE CUAL ARMA QUIERES SABER?"<<endl;
+						cout<<"Â¿DE CUAL ARMA QUIERES SABER?"<<endl;
 						cout<<"1. CUCHILLO"<<endl;
 						cout<<"2. MARTILLO"<<endl;
 						cout<<"3. HACHA"<<endl;
@@ -381,7 +381,7 @@ int main()
 					
 				case 2:		//PERSONAJE
 					{
-						cout<<"¿DE CUAL PERSONAJE QUIERES SABER?"<<endl;
+						cout<<"Â¿DE CUAL PERSONAJE QUIERES SABER?"<<endl;
 						cout<<"1. JACK"<<endl;
 						cout<<"2. OLIVER"<<endl;
 						cout<<"3. OLIVIA"<<endl;
@@ -492,7 +492,7 @@ int main()
 					
 				case 3:		//LUGAR
 					{
-						cout<<"¿DE CUAL LUGAR QUIERES SABER?"<<endl;
+						cout<<"Â¿DE CUAL LUGAR QUIERES SABER?"<<endl;
 						cout<<"1. ESTUDIO"<<endl;
 						cout<<"2. HABITACION PRINCIPAL"<<endl;
 						cout<<"3. CUARTO DE SERVICIO"<<endl;
@@ -639,17 +639,17 @@ int main()
 	
 	cout<<endl;
 	
-	cout<<"¿CUAL FUE EL ARMA HOMICIDA?"<<endl;
+	cout<<"Â¿CUAL FUE EL ARMA HOMICIDA?"<<endl;
 	cin>>arma_prop;
 	
 	cout<<endl;
 	
-	cout<<"¿QUIEN FUE EL ASESINO?"<<endl;
+	cout<<"Â¿QUIEN FUE EL ASESINO?"<<endl;
 	cin>>personaje_prop;
 	
 	cout<<endl;
 	
-	cout<<"¿DONDE ASESINARON A LA VICTIMA?"<<endl;
+	cout<<"Â¿DONDE ASESINARON A LA VICTIMA?"<<endl;
 	cin>>lugar_prop;
 	
 	cout<<endl;
